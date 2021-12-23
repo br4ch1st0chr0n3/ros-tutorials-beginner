@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="tutorials" type="service_server_node.py" name="service_server_node" output="screen"/>
+    <node pkg="tutorials" type="service_client_node.py" name="service_client_node" output="screen"/>
+</launch>
